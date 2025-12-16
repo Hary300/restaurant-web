@@ -7,10 +7,10 @@ function Footer() {
     <footer className='bg-[#0A0D12] px-4 md:px-30 py-10 md:py-20 flex flex-col gap-4 md:flex-row md:justify-between text-white '>
       {/* block 1 */}
       <div className='flex flex-col gap-6 max-w-[380px] w-full mx-auto md:mx-0'>
-        <div className='flex items-center gap-2 mb-5'>
+        <Link href='/' className='flex items-center gap-2 mb-5'>
           <Image src='/icons/red-logo.svg' alt='logo' width={30} height={30} />
           <p className='font-extrabold text-[32px]'>Foody</p>
-        </div>
+        </Link>
         <p className='text-lg font-medium mb-10'>
           Enjoy homemade flavors & chef’s signature dishes, freshly prepared
           every day. Order online or visit our nearest branch.
